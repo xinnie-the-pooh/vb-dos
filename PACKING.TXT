@@ -1,0 +1,220 @@
+
+                           Disk Contents for
+              Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+                       Standard Edition Version 1.00 
+
+              Copyright (C) 1982-1992 Microsoft Corporation
+
+This file contains a complete list of all files and directories on the 
+distribution disks provided with this product. Files are grouped by
+product component, numbers in parentheses indicate the disk number on which
+the file is found.
+
+==============================================================================
+Files on the distribution disks are compressed (indicated by a "$" in the
+file extension) and must be decompressed before they are used. The Setup
+program on disk 1 decompresses files as they are installed. A separate file
+decompression utility (DECOMP.EXE) located on disk 1 is provided for manual 
+file decompression. The following table displays the compressed/uncompressed 
+file extension mapping scheme:
+
+    Compressed File Extension:        Uncompressed File Extension:
+            *.AS$               -             *.ASM
+            *.BA$               -             *.BAS
+            *.BI$               -             *.BI
+            *.BT$               -             *.BAT
+            *.C$                -             *.C
+            *.CO$               -             *.COM
+            *.CT$               -             *.CTX
+            *.DL$               -             *.DLL
+            *.EX$               -             *.EXE
+            *.FO$               -             *.FON
+            *.FR$               -             *.FRM
+            *.H$                -             *.H
+            *.HL$               -             *.HLP
+            *.IC$               -             *.ICO
+            *.IN$               -             *.INC
+            *.LI$               -             *.LIB
+            *.MA$               -             *.MAK
+            *.MD$               -             *.MDB
+            *.OB$               -             *.OBJ
+            *.PI$               -             *.PIF
+            *.QL$               -             *.QLB
+            *.SC$               -             *.SCN
+            *.SO$               -             *.SOB
+            *.SY$               -             *.SYS
+            *.TX$               -             *.TXT
+            *.XL$               -             *.XLM
+			   
+An example of using DECOMP.EXE to decompress a single file is as follows:
+
+C:\> DECOMP A:BC.EX$ C:\VBDOS\BC.EXE
+
+This will decompress the BC.EX$ file from the distribution disk in drive a:
+to the file BC.EXE in the C:\VBDOS directory.
+
+This package comes with a number of demonstration and utility programs
+written in Basic. These files are for informational and recreational
+purposes only, and Microsoft makes no warranties, either expressed or
+implied, as to their suitability for specific purposes or their correctness,
+accuracy, or reliability. The entire risk as to the results and performance
+of the software is assumed by you.
+==============================================================================
+
+Installation Files
+------------------
+(1)  READNOW.TXT      Immediate installation instructions.
+(1)  SETUP.EXE        Visual Basic for MS-DOS installation program
+(1)  VBDOS.INF        Setup data file
+(1)  SETUP.INI        Setup initialization file
+(1)  DECOMP.EXE       Microsoft Decompression Utility; used for decompressing
+                      individual files from the distribution disks
+(1)  ALTSETUP.BAT     Batch install file for use if SETUP.EXE fails.
+
+
+Text Files
+----------------
+(1)  PACKING.TXT      List and description of all files provided
+(1)  README.TXT       Product notes and documentation corrections
+(1)  COMPAT.TXT       Visual Basic compatibility notes
+
+
+Development Tools
+-----------------
+(1)  VBDOS.EXE        Visual Basic for MS-DOS programming environment
+(1)  VBDOS.PIF        Windows information file for VBDOS.EXE
+(2)  VBDOS.ICO        Windows icon for VBDOS.EXE
+
+(1)  FD.EXE           Visual Basic for MS-DOS Form Designer
+
+(1)  BC.EXE           Visual Basic for MS-DOS Compiler
+
+(1)  FT.EXE           Visual Basic Binary Form Translator
+(1)  TRNSLATE.EXE     Visual Basic Project Translator; Windows
+                      application that requires the Visual Basic
+                      for Windows run-time DLL
+
+
+Help and Tutorial
+-----------------
+(2)  VBDOS.HLP        Visual Basic online Help
+(1)  VBDPSS.HLP       Visual Basic Knowledgebase online Help
+
+(1)  LEARN.EXE        Visual Basic for MS-DOS Tutorial program
+(1)  LEARN.SOB        Support file for tutorial
+(1)  LEARN.SCN        "
+(1)  LEARN.CTX        "
+
+
+Libraries
+-----------------
+(2)  VBDRT10.LIB      Run-time module library: 80x87 or emulator math;
+                      used for creating executable files requiring the
+                      Visual Basic run-time module (VBDRT10E.EXE)
+(2)  VBDRT10.EXE      Run-time module: 80x87 or emulator math; required
+                      to run executable files created with VBDRT10E.LIB
+(2)  VBDCL10.LIB      Stand-alone library: 80x87 or emulator math;
+                      used for creating stand-alone executable files
+
+(2)  VBDOS.LIB        Stand-alone library containing support routines
+                      for MS-DOS system calls
+(1)  VBDOS.QLB        Quick library containing support routines for
+                      MS-DOS system calls
+(1)  VBDOS.BI         Include file for programs that call any of the
+                      routines in VBDOS.LIB
+(2)  VBDOSQLB.LIB     Library of support routines for creating Quick
+                      libraries
+
+
+Utilities
+----------------
+(1)  LINK.EXE         Microsoft Segmented-Executable Linker; used to create
+                      executable files and Quick libraries
+(1)  LIB.EXE          Microsoft Library Manager; used to create
+                      stand-alone (.LIB) libraries
+
+(1)  FIXSHIFT.COM     TSR program that fixes a bug in the ROM BIOS of some
+                      machines with keyboards that have an extra set of
+                      arrow keys, in addition to those on the numeric
+                      keypad
+(1)  MSHERC.COM       Driver file that allows you to write programs using
+                      screen mode 3 for graphics output on computers
+                      equipped with a Hercules(R) Graphics Card, Graphics 
+                      Card Plus, Hercules InColor Card, or 100%-compatible
+                      clones of these graphics cards 
+(1)  PATCH87.EXE      Utility that installs a patch for DOS 3.20 which 
+                      eliminates a problem with floating-point math in DOS
+                      3.20. The problem arises ONLY on systems that boot from
+                      a hard disk drive, have a math coprocessor (such as an
+                      8087 chip), and run programs that use floating-point math
+
+
+Toolkits
+----------------
+(2)  CMNDLG.BAS       Common Dialog Toolkit source file
+(1)  CMNDLGF.FRM      "
+(2)  CMNDLG.BI        "
+(1)  CMNDLG.MAK       "
+(2)  CMNDLG.LIB       Common Dialog Toolkit library: 80x87 or emulator math
+(2)  CMNDLG.QLB       Common Dialog Toolkit Quick library: 80x87 or
+                      emulator math
+
+(1)  MOUSE.BAS        Mouse Toolkit source file
+(1)  MOUSE.BI         "
+(1)  MOUSE.MAK        "
+
+
+Custom Control
+--------------
+(1)  SPIN.QLB         Spin custom control
+(1)  SPIN.LIB         "
+(1)  SPINDEMO.FRM     Example program containing Spin custom control
+(1)  SPINDEMO.MAK     "
+
+
+Stub Files
+--------------
+(1)  87.LIB           No coprocessor emulation - for use with programs to
+                      run only on machines with an 8087, 80287, or 80387
+                      math coprocessor chip
+(1)  SMALLERR.OBJ     Reduced error messages - link with programs to reduce
+                      the length of run-time error messages
+
+
+Sample Applications
+-------------------
+(1)  CONSTANT.BI      Include file containing constant definitions for
+                      object property values
+
+(1)  CALC.FRM         Calculator sample application
+(1)  CALC.MAK         "
+(2)  CALC.BI          "
+
+(1)  CHECK.FRM        Check register sample application
+(1)  CHECK.MAK        "
+
+(2)  CLOCK.FRM        Clock sample application
+(2)  CLOCK.MAK        "
+(2)  CLOCK.BI         "
+
+(1)  CONTROLP.FRM     Control panel sample application
+(1)  CONTROLP.MAK     "
+(1)  CONTDRAW.BAS     "
+
+(1)  DEBUG.FRM        Debug output form
+
+(1)  GRAPHICS.FRM     Graphics sample application (charting and patterns)
+(1)  GRAPDRAW.BAS     "
+(1)  GRAPHICS.MAK     "
+
+(1)  NOTEPAD.FRM      Notepad sample application
+(1)  NOTEPAD.MAK      "
+(1)  NOTEPAD.BI       "
+
+(1)  QLBVIEW.FRM      Quick library contents viewer sample application
+(1)  QLBVIEW.MAK      "
+(1)  QLBVIEW.BI       "
+
+(1)  SEEK.FRM         File search sample application
+(1)  SEEK.MAK         "
+
